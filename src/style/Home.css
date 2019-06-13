@@ -1,0 +1,16 @@
+.home-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #baeab9;
+  width: 100vw;
+}
+
+.home-container main {
+  background: grey;
+}
+
+.home-container #personal {
+  background: pink;
+}
+/*# sourceMappingURL=Home.css.map */
