@@ -18,6 +18,10 @@ const Projects = () => {
           <img src={GitHub} alt="GitHub logo" />
         </a>
       </div>
+      <div>
+        <header />
+        <p />
+      </div>
     </div>
   );
 };

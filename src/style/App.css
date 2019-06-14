@@ -1,9 +1,0 @@
-.App {
-  background: #78fa97;
-  -webkit-clip-path: polygon(86% 0, 100% 0, 0 83%, 0 77%, 0 29%);
-          clip-path: polygon(86% 0, 100% 0, 0 83%, 0 77%, 0 29%);
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-/*# sourceMappingURL=App.css.map */

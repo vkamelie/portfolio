@@ -1,12 +1,12 @@
 import React from "react";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
-import "/Users/adriannavalois/Documents/Work/portfolio/portfolio/src/style/Home.css";
 
 function Home() {
   return (
     <div className="home-container">
-      <main>
+      <main style={{ marginTop: "60px" }}>
+        <Projects />
         <section id="personal">
           <h3> I'm Adrianna.</h3>
           <p>
@@ -17,7 +17,6 @@ function Home() {
           </p>
         </section>
 
-        <Projects />
         <Contact />
       </main>
     </div>

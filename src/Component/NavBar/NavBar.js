@@ -1,30 +1,30 @@
-import React, { Component } from "react";
+import React from "react";
 import "./NavBar.css";
+import Toggle from "../SideBar/Toggle";
+
 import { Link } from "react-router-dom";
 
-class NavBar extends Component {
-  state = {
-    on: false
-  };
-
-  toggle = () => {
-    this.setState({
-      on: !this.state.on
-    });
-  };
-  render() {
-    return (
-      <div className="main-nav">
-        <h3>Adrianna Web Dev</h3>
-        <nav>
+const NavBar = props => {
+  console.log(props);
+  return (
+    <header className="navBar">
+      <nav className="navBar_nav">
+        <div>
+          <Toggle click={props.sideBarClickHander} />
+        </div>
+        <div className="nav_logo">
+          {" "}
+          <Link to="/">ADRIANNA VALOIS</Link>
+        </div>
+        <div className="space" />
+        <div className="nav_links">
           <ul>
-            <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
           </ul>
-        </nav>
-      </div>
-    );
-  }
-}
+        </div>
+      </nav>
+    </header>
+  );
+};
 export default NavBar;

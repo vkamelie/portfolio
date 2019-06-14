@@ -1,0 +1,33 @@
+.sideBar {
+  height: 45%;
+  background: white;
+  box-shadow: 2px 2px 5px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 300px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.9s ease-in;
+}
+
+.sideBar.open {
+  transform: translateX(0);
+}
+
+.sideBar ul {
+  height: 70%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.sideBar a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
