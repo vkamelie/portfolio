@@ -1,0 +1,10 @@
+.projects-main {
+  margin-top: 60px;
+  padding: 0;
+  height: 100%;
+}
+
+.projects-main img {
+  height: 300px;
+  width: 400px;
+}
