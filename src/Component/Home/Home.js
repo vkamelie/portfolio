@@ -1,24 +1,19 @@
 import React from "react";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
+import "./Home.css";
+import About from "../About/About";
 
 function Home() {
   return (
     <div className="home-container">
-      <main style={{ marginTop: "60px" }}>
+      <div className="projects-home">
         <Projects />
-        <section id="personal">
-          <h3> I'm Adrianna.</h3>
-          <p>
-            {" "}
-            I am passionate and creative by nature, always searching for a new
-            hobby or skill to learn. Seeking opportunities that can push me
-            creatively and where the goal is to grow.{" "}
-          </p>
-        </section>
-
+      </div>
+      <div className="info-home">
         <Contact />
-      </main>
+        <About />
+      </div>
     </div>
   );
 }

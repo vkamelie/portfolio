@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import Toggle from "../SideBar/Toggle";
+import Icon from "./32x32.png";
 
 import { Link } from "react-router-dom";
 
@@ -14,7 +15,10 @@ const NavBar = props => {
         </div>
         <div className="nav_logo">
           {" "}
-          <Link to="/">ADRIANNA VALOIS</Link>
+          <Link to="/">
+            <img src={Icon} alt="Web Development Icon" />
+          </Link>
+          Adrianna Web Developer
         </div>
         <div className="space" />
         <div className="nav_links">

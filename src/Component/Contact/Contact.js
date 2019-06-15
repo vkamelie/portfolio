@@ -7,25 +7,24 @@ const Contact = () => {
   return (
     <div className="contact-main">
       Contact Info
+      <br />
+      <br />
       <ul>
+        <li>valois.adrianna@gmail.com</li>
         <a
-          href="www.linkedin.com/in/adrianna-valois"
+          href="https://www.linkedin.com/in/adrianna-valois/"
           target="_blank"
           rel="noopener noreferrer"
-          className="link-img"
         >
-          LinkedIn <img src={LI} alt="linkedin Logo" />
+          <img src={LI} alt="linkedin Logo" />
         </a>
-
         <a
           href="https://github.com/vkamelie"
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub
           <img src={GitHub} alt="GitHub Logo" />
         </a>
-        <li>valois.adrianna@gmail.com</li>
       </ul>
     </div>
   );

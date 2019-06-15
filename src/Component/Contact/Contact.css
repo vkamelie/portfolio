@@ -2,18 +2,13 @@
   margin-top: 60px;
   text-align: center;
   font-size: 25px;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .contact-main ul {
-  display: flex;
-  flex-direction: column;
-  height: 100px;
+  height: 45px;
 }
 
 .contact-main img {
-  height: 30px;
+  height: 29px;
   width: 30px;
 }
