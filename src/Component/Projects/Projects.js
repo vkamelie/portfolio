@@ -2,7 +2,7 @@ import React, { useState } from "react";
 //import Transplant from "./TransplantProject.png";
 // import GitHub from "./GitHub-Mark-Light-32px.png";
 import "./Projects.css";
-// import SkillsIcons from "./SkillsIcons";
+import SkillsIcons from "./SkillsIcons";
 import TransplantModal from "./TransplantModal";
 import BackDrop from "../SideBar/BackDrop";
 
@@ -30,12 +30,12 @@ const Projects = () => {
 
   return (
     <div className="projects-main">
-      {/* <SkillsIcons /> */}
+      <SkillsIcons />
+      <h2>Projects</h2>
       <div className="modal-box">
-        Personal Project:{" "}
         <span className="bold">Transplant Community Support</span>
+
         <div>
-          <br />
           <br />
           Technologies:{" "}
           <span className="bold">
@@ -43,9 +43,6 @@ const Projects = () => {
             RESTful API's, CSS3, HTML5{" "}
           </span>
           <br />
-          <br />
-          Description: A community forum and chat app for the transplant
-          community.
           <TransplantModal show={show} hideModal={hideModal} />
           <button id="modalBtn" onClick={showModal}>
             See Details

@@ -2,3 +2,17 @@
   height: 100px;
   width: 100px;
 }
+
+.icons-main h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.fe {
+  margin: 0 200px 0 0px;
+}

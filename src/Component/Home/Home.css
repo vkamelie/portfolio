@@ -1,12 +1,11 @@
 .home-container {
   display: flex;
-  justify-content: flex-start;
-  margin-top: 60px;
-  background: pink;
-  width: 100%;
 }
 
-.projects-home {
-  background: purple;
-  width: 50%;
+.projects {
+  width: 50vw;
+}
+
+.contact {
+  width: 50vw;
 }

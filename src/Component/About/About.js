@@ -1,32 +1,34 @@
 import React from "react";
-import Dog from "./IMG_6978.JPG";
+
 import "./About.css";
-import Hike from "./IMG_0382.JPG";
-import Craft from "./IMG_2866.JPG";
 
 const About = () => {
   return (
     <div className="about-main">
-      <h4>
-        Here are examples on why my personality makes me a great programmer.
-      </h4>
-      <ul>
-        <li>
-          I've never met a dog I could not win over. This displays compassion,
-          empthay and the ablity to get along with all types of personality.{" "}
-          <img id="dog" src={Dog} alt="Enjoying the sun with a a dog." />
-        </li>
-        <li>
-          I love to seek adventures and travel. Experince culutres other than my
-          own. This dispays the williness to always be seeking and learning new
-          things. <img id="hike" src={Hike} alt="Me on a hike." />
-        </li>
-        <li>
-          My hobbies include making minture models. This displays patinces,
-          creativity and attetnion to deital.{" "}
-          <img id="craft" src={Craft} alt="minture craft room" />{" "}
-        </li>
-      </ul>
+      How my personality makes me a great programmer.
+      <div className="list">
+        <ol>
+          <li>I've never met a dog I couldn't win over.</li>
+          <ul>
+            <li>
+              Displays the ablility to get along with all types of personalitys.
+            </li>
+          </ul>
+          <br />
+          <li>
+            Like to travel and immurse myself in cultures other than my own.
+          </li>
+          <ul>
+            <li>I'm always instrested in learning and trying something new.</li>
+          </ul>
+          <br />
+          <li>My hobbies include crafts and making minture houses</li>
+
+          <ul>
+            <li>This show my patiences and my attention to detail.</li>
+          </ul>
+        </ol>
+      </div>
     </div>
   );
 };

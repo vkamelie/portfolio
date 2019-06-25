@@ -13,17 +13,17 @@
 .modal-main {
   position: fixed;
   background: white;
-  width: 70%;
+  width: 80%;
   height: auto;
   top: 50%;
   left: 50%;
 
   padding: 20px;
-  width: 70%;
+  width: 80%;
   transform: translate(-50%, -50%);
 }
 .close {
-  color: grey;
+  color: coral;
   float: right;
   font-size: 30px;
 }

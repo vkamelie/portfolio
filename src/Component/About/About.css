@@ -1,18 +1,20 @@
 .about-main {
-  background: green;
+  width: 90%;
+  height: 100%;
+  margin-top: 60px;
+
+  margin: 0 auto;
 }
 
-#dog {
-  height: 300px;
-  width: 250px;
+.list ul {
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
-#hike {
-  height: 250px;
-  width: 350px;
+.list ol {
+  list-style-position: inside;
 }
 
-#craft {
-  height: 400px;
-  width: 400px;
+.list {
+  margin: 0 auto;
 }

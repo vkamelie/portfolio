@@ -1,7 +1,8 @@
 import React from "react";
 import "./Modals.css";
+import Slider from "./Gallery/Slider";
 
-const TransplantModal = props => {
+const Modal = props => {
   console.log(props);
 
   let modalClasses = ["modal display-none"];
@@ -15,16 +16,10 @@ const TransplantModal = props => {
         <span className="close" onClick={props.hideModal}>
           &times;
         </span>
-        <p>
-          Transplant Project here
-          <br />
-          Description <br /> PHOTOS <br />
-          Changllegs
-        </p>
-
+        <Slider />
         <button onClick={props.hideModal}>Close</button>
       </div>
     </div>
   );
 };
-export default TransplantModal;
+export default Modal;

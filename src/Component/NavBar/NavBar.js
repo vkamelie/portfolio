@@ -18,8 +18,8 @@ const NavBar = props => {
           <Link to="/">
             <img src={Icon} alt="Web Development Icon" />
           </Link>
-          Adrianna Web Developer
         </div>
+        <span className="name">Adrianna Web Developer</span>
         <div className="space" />
         <div className="nav_links">
           <ul>
