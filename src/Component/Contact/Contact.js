@@ -8,11 +8,11 @@ const Contact = () => {
   return (
     <div className="contact-main">
       <div className="contact-color">
-        <span style={{ fontSize: "30px" }}>Contact Info</span>
+        <span id="info">Contact Info</span>
         <br />
         <br />
         <ul>
-          <li>valois.adrianna@gmail.com</li>
+          <li id="email">valois.adrianna@gmail.com</li>
           <a
             href="https://www.linkedin.com/in/adrianna-valois/"
             target="_blank"

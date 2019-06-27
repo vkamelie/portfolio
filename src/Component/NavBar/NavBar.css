@@ -66,3 +66,9 @@
   padding-bottom: 1rem;
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 1rem;
+  }
+}

@@ -19,7 +19,7 @@ const Icons = () => {
         <div>
           <h3>Back-End</h3>
           <ul>
-            <li>Node.js</li>
+            <li>Node</li>
             <li>Express</li>
             <li>PostgreSQL</li>
             <li>Git</li>

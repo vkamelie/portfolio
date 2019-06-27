@@ -28,6 +28,7 @@
 
 .sideBar a {
   text-decoration: none;
-  margin: 0;
-  padding: 0;
+  margin-right: 30px;
+  padding: 2.5rem;
+  color: black;
 }

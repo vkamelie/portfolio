@@ -2,19 +2,49 @@
   width: 90%;
   height: 100%;
   margin-top: 60px;
-
   margin: 0 auto;
-}
-
-.list ul {
-  list-style-type: circle;
-  list-style-position: inside;
 }
 
 .list ol {
   list-style-position: inside;
+  word-wrap: break-word;
+  align-content: center;
 }
 
 .list {
   margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.list ul li::before {
+  content: "\2022";
+  color: coral;
+  display: inline-block;
+  width: 1em;
+
+  list-style-position: inside;
+  word-wrap: break-word;
+  padding: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-main {
+    width: 99%;
+  }
+
+  .list {
+    font-size: 25px;
+
+    width: 80%;
+    margin: 10px;
+    align-items: center;
+  }
+  .list ol {
+    margin-left: -50px;
+  }
+  .list ul {
+    margin-left: -40px;
+  }
 }

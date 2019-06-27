@@ -11,7 +11,7 @@ const SideBar = props => {
 
   return (
     <nav className={sideBarClasses}>
-      <ul>
+      <ul className="sidebar_links">
         <Link to="/" onClick={props.linkClick}>
           Home
         </Link>

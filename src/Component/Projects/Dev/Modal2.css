@@ -1,4 +1,4 @@
-.modal {
+.modal2 {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,7 +10,7 @@
   /* background: rgba(0, 0, 0, 0.6); */
 }
 
-.modal-main {
+.modal-main2 {
   position: fixed;
   background: white;
   width: 80%;
@@ -24,19 +24,19 @@
   transform: translate(-50%, -50%);
   word-wrap: break-word;
 }
-.close {
+.close2 {
   color: coral;
   float: right;
   font-size: 30px;
 }
 
-.close:hover,
-.close:focus {
+.close2:hover,
+.close2:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
-.display-none {
+.display-none2 {
   display: none;
 }
