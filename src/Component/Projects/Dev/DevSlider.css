@@ -17,8 +17,8 @@
   height: 0;
   padding-bottom: 40%;
   user-select: none;
-  background-color: #1c1c1c;
-  border: solid 10px #616161;
+
+  border: solid 10px #3d3c3c;
   border-radius: 10px;
 }
 
@@ -47,7 +47,7 @@
   top: 0;
   background-color: rgba(88, 88, 88, 0.2);
   color: rgba(244, 244, 244, 0.9);
-  z-index: 99;
+  z-index: 200;
   transition: 0.45s;
   cursor: pointer;
   text-align: center;
@@ -132,7 +132,16 @@ label span {
   }
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 678px) {
+  .slide2 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .des {
+    width: 100%;
+    margin-top: 10px;
+  }
   .container2 {
     border: none;
     width: 100%;
@@ -151,10 +160,5 @@ label span {
   #nav_slide2 .dots2 {
     width: 12px;
     height: 12px;
-  }
-}
-@media screen and(min-width: 970px) {
-  .me {
-    display: none;
   }
 }

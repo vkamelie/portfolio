@@ -18,8 +18,8 @@
   height: 0;
   padding-bottom: 40%;
   user-select: none;
-  background-color: #1c1c1c;
-  border: solid 10px #616161;
+
+  border: solid 10px #3d3c3c;
   border-radius: 10px;
 }
 .des {
@@ -133,6 +133,15 @@ label span {
 }
 
 @media screen and (max-width: 685px) {
+  .slide {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .des {
+    width: 100%;
+    margin-top: 10px;
+  }
   .container {
     border: none;
     width: 100%;

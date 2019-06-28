@@ -7,7 +7,6 @@
   overflow: auto;
   z-index: 200;
   display: block;
-  /* background: rgba(0, 0, 0, 0.6); */
 }
 
 .modal-main2 {
@@ -39,4 +38,7 @@
 
 .display-none2 {
   display: none;
+}
+
+@media screen and (max-width: 678px) {
 }
